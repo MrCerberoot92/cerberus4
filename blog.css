@@ -91,6 +91,8 @@ h6,
   margin-bottom: 2rem;
   border-bottom: .05rem solid #eee;
   background-image:url("images/cerberus.logo.jpg");
+  background-repeat:no-repeat;
+  background-attachment:scroll;
 }
 
   .blog-logo {
