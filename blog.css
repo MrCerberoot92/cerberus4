@@ -90,9 +90,9 @@ h6,
   padding-bottom: 1.25rem;
   margin-bottom: 2rem;
   border-bottom: .05rem solid #eee;
-  /* background-image:url("images/Freelance-Portfolio.jpg");
-  */
-  
+  background-image:url("images/cerberus.logo.jpg");
+}
+
   .blog-logo {
   	background-image:url("images/cerberus.logo.jpg");
   	background-repeat:no-repeat;
