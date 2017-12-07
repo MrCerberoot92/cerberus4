@@ -1,223 +1,264 @@
-/*
- * Globals
- */
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  -->
+  <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
 
-@media (min-width: 48em) {
-  html {
-    font-size: 18px;
-  }
-}
+    <title>Cerberus 4 Multimedia</title>
 
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
-background-image:url("images/sci_fi_interior_by_blueroguevyse-d76q4py.jpg");
-}
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #333;
-}
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+  </head>
 
+<!--jumbotron trasparent , bg scrol repeat none-->
 
-/*
- * Override Bootstrap's default container.
- */
+  <body>
 
-.container {
-  max-width: 60rem;
-}
-
-
-/*
- * Masthead for nav
- */
-
-.blog-masthead {
-  margin-bottom: 3rem;
-  background-color: #428bca;
-  box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
-}
-
-/* Nav links */
-.nav-link {
-  position: relative;
-  padding: 1rem;
-  font-weight: 500;
-  color: #cdddeb;
-}
-.nav-link:hover,
-.nav-link:focus {
-  color: #fff;
-  background-color: transparent;
-}
-
-/* Active state gets a caret at the bottom */
-.nav-link.active {
-  color: #fff;
-}
-.nav-link.active::after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -.3rem;
-  vertical-align: middle;
-  content: "";
-  border-right: .3rem solid transparent;
-  border-bottom: .3rem solid;
-  border-left: .3rem solid transparent;
-}
-
-
-/*
- * Blog name and description
- */
-
-.blog-header {
-  padding-bottom: 1.25rem;
-  margin-bottom: 2rem;
-  border-bottom: .05rem solid #eee;
-  /* background-image:url("images/cerberus.logo.jpg");
-  background-repeat:no-repeat;
-  background-attachment:scroll;
-  */
-}
-
-
-
-.blog-title {
-  margin-bottom: 0;
-  font-size: 2rem;
-  font-weight: 400;
-}
-.blog-description {
-  font-size: 1.1rem;
-  color: #999;
-}
-
-@media (min-width: 40em) {
-  .blog-title {
-    font-size: 3.5rem;
-  }
-}
-
-
-/*
- * Main column and sidebar layout
- */
-
-/* Sidebar modules for boxing content */
-.sidebar-module {
-  padding: 1rem;
-}
-.sidebar-module-inset {
-  padding: 1rem;
-  background-color: #f5f5f5;
-  border-radius: .25rem;
-}
-.sidebar-module-inset p:last-child,
-.sidebar-module-inset ul:last-child,
-.sidebar-module-inset ol:last-child {
-  margin-bottom: 0;
-}
-
-
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
-}
-
-
-/*
- * Blog posts
- */
-
-.blog-post {
-  margin-bottom: 4rem;
-}
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
-}
-
-
-/*
- * Footer
- */
-
-.blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
-}
-.blog-footer p:last-child {
-  margin-bottom: 0;
-}
-
-
-
-
-
-
-
-.cerberus {
-  width:100%;
-  border-radius:5px;  
-  box-shadow: 10px 10px 50px  grey; 
-  display:block; 
-  margin:auto;
-  
-  
-  }
-
-
-
-
-
-
-.span1 {
+    <header>
     
-    position: relative;
-    white-space: nowrap;
-    top: 0;
-    left: 0;
-    animation: move 10s;
-    animation-iteration-count: infinite;
-    animation-delay: 6s;
-}
-@keyframes move {
-0%  { top: 0px; }
-20% { top: -90px; }
-40% { top: -175px; }
-60% { top: -265px; }
-}
+      <div class="blog-masthead">
+      <div class="container">
+          <nav class="nav">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Nefeatures</a>
+            <a class="nav-link" href="#">Press</a>
+            <a class="nav-link" href="#">New hires</a>
+            <a class="nav-link" href="#">About</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="blog-header" style="border:5px solid lightblue; border-radius:0px 5px 0px 5px;">
+        <div class="container">
+         <!-- <img class="img-responsive" src="images/cerberus.logo.jpg" alt="cerberus land background"/> -->
+          <h1 class="blog-tile"><center>Cerberus 4 Multimedia</center></h1>
+          <p class="lead blog-description"><center>Software Archives Guide & Non Solo.</center></p>
+        </div>
+      </div>
+    
+    </header>
+
+    
+    
+    
+    
+    
+    <main role="main" class="container">
+
+      <div class="row">
+      
+      
+      
+
+        <div class="col-sm-8 blog-main">
+		
+		
+          <div class="blog-post">
+           
+            <h2 class="blog-post-title">Cerberus Blog Post</h2>
+            <p class="blog-post-meta">Novembre 19, 2017 by <a href="#">Mr Cerberus</a></p>
+
+            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+            <hr>
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <h2>Heading</h2>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <pre><code>Example code block</code></pre>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+            <ol>
+              <li>Vestibulum id ligula porta felis euismod semper.</li>
+              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+            </ol>
+            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+          
+          
+          </div><!-- /.blog-post -->
+
+
+
+
+          <div class="blog-post">
+           <div class="jumbotron" style="border:2px solid red; border-radius:5px;">
+            <h2 class="blog-post-title" style="text-align:center">Playing Nunchaku</h2>
+            <p class="blog-post-meta">18 Novembre 2017 <a href="https://github.com/mrcerberoot92/"> Mr Cerberus </a></p>
+
+            <p>Video fatto da tempo e non publicato su <a href="#">Youtube</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <video controls autoplay>
+            	<source type="video/mp4" src="images/my-nunchaku.mp4">
+            </video>
+            
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+           </div>
+          </div><!-- /.blog-post -->
+
+
+
+
+          <div class="blog-post">
+           <div class="jumbotron" style="border:2px solid #555; border-radius:5px;">
+            <h2 class="blog-post-title">New feature</h2>
+            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+           </div>
+          </div><!-- /.blog-post -->
+
+
+
+		<!-- Nav button -->
+
+          <nav class="blog-pagination">
+            <a class="btn btn-outline-primary" href="#">Older</a>
+            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+          </nav>
+          <!-- fine nav button-->
+
+
+
+
+        </div><!-- /.blog-main -->
 
 
 
 
 
+
+        <aside class="col-sm-4 ml-sm-auto blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4 class="text-center">About</h4>
+	    <a href="https://github.com/mrcerberoot92/" target="_blanck">
+		    <img class="span1 cerberus"  src="https://img00.deviantart.net/e2e2/i/2012/123/f/9/indoctrinated_illusive_man_by_anizeke-d4yescf.jpg" alt="Cerberus-indoctrinated-illusive-man"/>
+		    
+	    </a>
+		  <h4 class="text-center">Mr Cerberus 92</h4> 
+	
+		  <h5 class="span1 text-center"><em>Alias <br> King Of The Universe</em></h5>
+
+
+           
+        <div class="card">
+            <h5 class="citahead text-primary">Citazioni Preferite</h5>
+            <hr>
+<blockquote>
+	          <cite>
+	          
+	          <strong>Dont giving up!</strong>
+	          <br>
+Sometimes i feel like giving up! then i remember      
+i have a lot of motherfucker to prove wrond!
+            </cite>
+
+          <hr>
+          
+            <cite>
+              <strong>la morte arriva per tutti</strong>
+              <br>Spece per i soldati, arriva certa come il sole , 
+si e spaventati se si ha paura di ci򠣨e ci aspetta dall'altra parte se 
+nell'anima vedi la tenebra invece che la luce, in fondo... penzo che i soldati 
+siano degli dei. essi donano la vita perch蠡ltri possano vivere... in pace. 
+Anche se la pace e solo effimera. chi sopravvive, riceve una parte di te,
+le tue azioni sono i semi delle loro... il sacrificio fa progredire... 
+e nei loro ultimi istanti i soldati sanno che dovranno rispondere alla stessa 
+domanda che tu stesso ti sei posto... con la tua vita, crei la morte?... 
+o con la tua morte, crei la vita?... questa e la mia domanda comandante lock. 
+Tu come morirai...? e per che cosa...
+            </cite>
+</blockquote>
+
+
+        </div>
+
+          </div>
+
+          <div class="sidebar-module" style="border:2px solid #777; margin-top:20px;">
+            <h4 class=text-center>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+        </aside><!-- /.blog-sidebar -->
+        
+        
+        
+        
+        
+        
+        
+
+      </div><!-- /.row -->
+
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+	&copy; Cerberus Company 2017
+      <p>Written and Coded By <a href="https://github.com/Mrcerberoot92/"> Mr Cerberus </a></p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
 
  
