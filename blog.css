@@ -2,9 +2,10 @@
  * Globals
  */
 
-@media (min-width: 48em)
+@media (min-width: 48em) {
   html {
     font-size: 18px;
+  }
 }
 
 body {
@@ -38,7 +39,8 @@ h6,
  */
 
 .container {
-  max-width: 60rem; 
+  max-width: 60rem;
+  
 }
 
 
@@ -110,10 +112,10 @@ h6,
   color: #999;
 }
 
-@media (min-width: 40em) 
+@media (min-width: 40em) {
   .blog-title {
     font-size: 3.5rem;
-
+  }
 }
 
 
@@ -223,6 +225,8 @@ h6,
 .card {
   padding:18px;
   text-align:center;
+  background-color:grey;
+  box-shadow:7px 7px 7px 0px rgba(40, 40, 60, 0.62);
 
 
   }
@@ -231,21 +235,26 @@ h6,
   background-color:lightgrey;
   box-shadow:2px 2px 2px 1px lightblue;
   border:1px solid lightblue;
+  border-radius:5px;
   text-align:center;
   padding:2px;
   font-family:serif;
   }
 
-
+blockquote {
+  background-color:lightgrey;
+  border-radius:5px;
+  padding:10px;
+  }
 
 cite {
   padding:4px;
   border-color:lightblue;
+
   }
   
   
   strong {
-    text-align:left;
     box-shadow:2px 2px 2px 1px lightblue;
     border:1px solid lightblue;
     }
@@ -254,3 +263,5 @@ cite {
   
   
   
+
+ 
